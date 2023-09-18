@@ -47,5 +47,17 @@ python TP1/main.py
 
 # usefull
 
-go check [RIPE Atlas API](#https://atlas.ripe.net/docs/apis/rest-api-manual/) it is your best friend for TP1
+go check [RIPE Atlas API](#https://atlas.ripe.net/docs/apis/rest-api-manual/) it is your best friend for TP1.
+
+# setup ripe credentials 
+
+The professor will communicate you your credentials for RIPE Atlas API. an example of .env file required is given at [.env.example](./.env.example)
+
+```bash
+RIPE_USERNAME=
+RIPE_SECRET_KEY=
+
+``` 
+
+Note: alternatively you can also simply export the two environment variables
 

@@ -102,7 +102,7 @@ def exo3() -> None:
     return probes, anchors
 
 
-def exo4(country_codes: list) -> None:
+def exo4(country_codes: list) -> list:
     """write a function that get all probes and anchors
     located in one of the country listed
     """
@@ -121,7 +121,7 @@ def exo4(country_codes: list) -> None:
     return candidates
 
 
-def exo5(targets: list, start_time: str, stop_time: str) -> None:
+def exo5(targets: list, start_time: str, stop_time: str) -> list:
     """from a list of probes retrieve a list of measurement results
     hints: check RIPE API parameter start_time__gte and start_time__lte
     """
@@ -141,8 +141,10 @@ def exo5(targets: list, start_time: str, stop_time: str) -> None:
     else:
         logger.info("retrieved some measurements")
 
+    return measurements
 
-def exo6(event_date: str) -> None:
+
+def exo6(event_date: str) -> dict:
     """From a list of measurements, get one 'old' and one 'new' measurement
     the idea is to have a reference measurement we can compare with another after an event
     """
