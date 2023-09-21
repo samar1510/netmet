@@ -1,5 +1,11 @@
 # NETMET: Internet measurements codes and courses
 
+
+http://htmlpreview.github.io/?
+[https://github.com/hrimlinger/netmet/](https://github.com/hrimlinger/netmet/blob/main/TP1/results/ripe_atlas_map.html)
+
+
+
 This repository is dedicated to NETMET TD at Sorbonne University. It is meant for under-graduated master students with a background in computer networking.
 It contains:
 - subjects for practical courses
