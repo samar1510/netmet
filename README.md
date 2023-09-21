@@ -2,7 +2,7 @@
 
 
 http://htmlpreview.github.io/?
-[https://github.com/hrimlinger/netmet/](https://github.com/hrimlinger/netmet/blob/main/TP1/results/ripe_atlas_map.html)
+https://github.com/hrimlinger/netmet/blob/main/TP1/results/ripe_atlas_map.html
 
 
 
