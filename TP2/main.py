@@ -1,9 +1,9 @@
 """execute each exercise or correction for TP1"""
 import requests
 import random
+import sys
 
 from pathlib import Path
-from collections import defaultdict
 
 from common.credentials import get_ripe_atlas_credentials
 from common.file_utils import dump_json, load_json, insert_json
@@ -60,7 +60,11 @@ def exo1_get_a_measurement(measurement_id: int, output_file_path: Path) -> dict:
     # TODO: make an http request to RIPE API (using requests package)  #
     # to get measurement with measurement id : 38333397                #
     ####################################################################
-    measurement_description = requests.get(f"{base_url}/{measurement_id}/").json()
+    measurement_description: dict = None
+
+    if not measurement_description:
+        logger.error("Measurement description is empty")
+        sys.exit(1)
 
     logger.info("Measurement description")
     for key, val in measurement_description.items():
@@ -91,13 +95,25 @@ def exo2_get_a_measurement_result(measurement_id: int, output_file_path: Path) -
     ####################################################################
 
     # 1. get measurement description
-    response = requests.get(f"{base_url}/{measurement_id}/").json()
+    response = None
+
+    if not response:
+        logger.error("measurement description is empty")
+        sys.exit(1)
 
     # 2. check measurement description to get measurement results url
-    result_url = response["result"]
+    result_url = None
+
+    if not result_url:
+        logger.error("result url empty")
+        sys.exit(1)
 
     # 3. make the request to get measurement results
-    results = requests.get(result_url).json()
+    results = None
+
+    if not result_url:
+        logger.error("Measurement results empty")
+        sys.exit(1)
 
     # 4. just take the first result
     results = results[0]
@@ -111,9 +127,9 @@ def exo2_get_a_measurement_result(measurement_id: int, output_file_path: Path) -
     #   - the source address of the measurement
     #   - the destination address of the measurement
     #   - the type of the measurement
-    src_addr = results["src_addr"]
-    dst_addr = results["dst_addr"]
-    measurement_type = results["type"]
+    src_addr = None
+    dst_addr = None
+    measurement_type = None
 
     logger.info(f"measurement source : {src_addr}")
     logger.info(f"measurement dst : {dst_addr}")
@@ -142,30 +158,28 @@ def exo3_get_all_vps() -> None:
     logger.info("###############################################")
 
     base_url = "https://atlas.ripe.net/api/v2/probes/"
-    params = {"country_code": "UA"}
+
+    # 1. set parameters
+    params = None
 
     if not params:
-        raise RuntimeError(
-            f"No params where given, you must filter the request on countries"
-        )
+        logger.error("you must set parameters")
+        sys.exit(1)
     else:
-        # 1. perform request to get all RIPE Atlas servers in Ukraine
-        response = requests.get(base_url, params=params).json()
+        # 2. perform request to get all RIPE Atlas servers in Ukraine
+        response = None
 
-        # 2. filter servers so they all :
+        # 3. filter servers so they all :
         #   - have connected status (check the response)
         #   - have an IPv4 address
         filtered_vps = []
-        for vp in response["results"]:
-            if vp["status"]["name"] == "Connected":
-                if vp["address_v4"]:
-                    filtered_vps.append(vp)
 
         if filtered_vps:
             logger.info(f"Retrieved {len(filtered_vps)} connected servers from Ukraine")
             dump_json(filtered_vps, TP2_VPS_DATASET_CORRECTION)
         else:
-            raise RuntimeError("VP dataset empty")
+            logger.error("VP dataset empty")
+            sys.exit(1)
 
 
 def exo4_get_all_targets() -> None:
@@ -178,24 +192,21 @@ def exo4_get_all_targets() -> None:
     logger.info("###############################################")
 
     base_url = "https://atlas.ripe.net/api/v2/probes/"
-    params = {"country_code": "RU"}
+
+    # 1. set parameters
+    params = None
 
     if not params:
-        raise RuntimeError(
-            f"No params where given, you must filter the request on countries"
-        )
+        logger.error("you must set parameters")
+        sys.exit(1)
     else:
         # 1. perform request to get all RIPE Atlas servers in Russia
-        response = requests.get(base_url, params=params).json()
+        response = None
 
         # 2. filter servers so they all :
         #   - have connected status (check the response)
         #   - have an IPv4 address
         filtered_targets = []
-        for target in response["results"]:
-            if target["status"]["name"] == "Connected":
-                if target["address_v4"]:
-                    filtered_targets.append(target)
 
         if filtered_targets:
             logger.info(
@@ -203,7 +214,8 @@ def exo4_get_all_targets() -> None:
             )
             dump_json(filtered_targets, TP2_TARGETS_DATASET_CORRECTION)
         else:
-            raise RuntimeError("Target dataset empty")
+            logger.error("Target dataset empty")
+            sys.exit(1)
 
 
 def exo5_perform_measurement(
