@@ -322,5 +322,5 @@ if __name__ == "__main__":
 
     for id in measurement_ids:
         exo2_get_a_measurement_result(
-            id, output_file_path=TP2_RESULTS_PATH / f"perso_{id}.json"
+            id, output_file_path=TP2_RESULTS_PATH / f"exo6_correction_{id}.json"
         )

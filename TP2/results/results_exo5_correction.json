@@ -134,5 +134,73 @@
             "is_oneoff": true,
             "bill_to": "hugorimlinger4@gmail.com"
         }
+    },
+    {
+        "measurement_id": [
+            60364577
+        ],
+        "measurement_description": {
+            "definitions": [
+                {
+                    "target": "5.144.124.55",
+                    "af": 4,
+                    "packets": 3,
+                    "size": 48,
+                    "tags": [
+                        "netmethr"
+                    ],
+                    "description": "Netmet",
+                    "resolve_on_probe": false,
+                    "skip_dns_check": true,
+                    "include_probe_id": false,
+                    "port": 34543,
+                    "type": "traceroute",
+                    "protocol": "ICMP"
+                }
+            ],
+            "probes": [
+                {
+                    "value": 4158,
+                    "type": "probes",
+                    "requested": 1
+                }
+            ],
+            "is_oneoff": true,
+            "bill_to": "hugorimlinger4@gmail.com"
+        }
+    },
+    {
+        "measurement_id": [
+            60364610
+        ],
+        "measurement_description": {
+            "definitions": [
+                {
+                    "target": "2.57.38.4",
+                    "af": 4,
+                    "packets": 3,
+                    "size": 48,
+                    "tags": [
+                        "netmethr"
+                    ],
+                    "description": "Netmet",
+                    "resolve_on_probe": false,
+                    "skip_dns_check": true,
+                    "include_probe_id": false,
+                    "port": 34543,
+                    "type": "traceroute",
+                    "protocol": "ICMP"
+                }
+            ],
+            "probes": [
+                {
+                    "value": 289,
+                    "type": "probes",
+                    "requested": 1
+                }
+            ],
+            "is_oneoff": true,
+            "bill_to": "hugorimlinger4@gmail.com"
+        }
     }
 ]
