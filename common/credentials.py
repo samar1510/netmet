@@ -1,7 +1,7 @@
 """get all credentials (Clickhouse and RIPE)"""
 import os
 
-from settings.logger_config import logger
+from common.logger_config import logger
 from dotenv import load_dotenv
 
 

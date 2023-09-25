@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+TP2/preparation/
+TP2/main_correction.py
+
+
 # Distribution / packaging
 .Python
 build/

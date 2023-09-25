@@ -1,11 +1,5 @@
 # NETMET: Internet measurements codes and courses
 
-
-http://htmlpreview.github.io/?
-https://github.com/hrimlinger/netmet/blob/main/TP1/results/ripe_atlas_map.html
-
-
-
 This repository is dedicated to NETMET TD at Sorbonne University. It is meant for under-graduated master students with a background in computer networking.
 It contains:
 - subjects for practical courses
@@ -53,7 +47,7 @@ python TP1/main.py
 
 # usefull
 
-go check [RIPE Atlas API](#https://atlas.ripe.net/docs/apis/rest-api-manual/) it is your best friend for TP1.
+go check [RIPE Atlas API](https://atlas.ripe.net/docs/apis/rest-api-manual/) it is your best friend for TP1.
 
 # setup ripe credentials 
 

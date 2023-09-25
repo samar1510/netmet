@@ -1,0 +1,992 @@
+[
+    {
+        "id": 1921,
+        "type": "Anchor",
+        "fqdn": "ru-cta-as58067.anchors.atlas.ripe.net",
+        "probe": 6624,
+        "is_ipv4_only": false,
+        "ip_v4": "176.114.16.104",
+        "as_v4": 58067,
+        "ip_v4_gateway": "176.114.16.1",
+        "ip_v4_netmask": "255.255.255.0",
+        "ip_v6": "2a0b:97c0:0:110::2",
+        "as_v6": 58067,
+        "ip_v6_gateway": "2a0b:97c0:0:110::1",
+        "ip_v6_prefix": 64,
+        "city": "Chita",
+        "country": "RU",
+        "company": "Chitatehenergy JSC",
+        "nic_handle": "LA7664-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.502911,
+                52.0304689
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-10-10T22:20:04",
+        "hardware_version": 99
+    },
+    {
+        "id": 1946,
+        "type": "Anchor",
+        "fqdn": "ru-eka-as199524.anchors.atlas.ripe.net",
+        "probe": 6645,
+        "is_ipv4_only": false,
+        "ip_v4": "92.223.109.44",
+        "as_v4": 199524,
+        "ip_v4_gateway": "92.223.109.1",
+        "ip_v4_netmask": "255.255.255.128",
+        "ip_v6": "2a03:90c0:b5::26",
+        "as_v6": 199524,
+        "ip_v6_gateway": "2a03:90c0:b5::1",
+        "ip_v6_prefix": 48,
+        "city": "Ekaterinburg",
+        "country": "RU",
+        "company": "G-Core Labs S.A.",
+        "nic_handle": "NA6392-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                60.6318068,
+                56.8474687
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-11-02T10:20:33",
+        "hardware_version": 99
+    },
+    {
+        "id": 3009,
+        "type": "Anchor",
+        "fqdn": "ru-iar-as49558.anchors.atlas.ripe.net",
+        "probe": 7066,
+        "is_ipv4_only": false,
+        "ip_v4": "91.213.39.29",
+        "as_v4": 49558,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a0d:8540::29",
+        "as_v6": 49558,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Yaroslavl",
+        "country": "RU",
+        "company": "IT-Yaroslavl Ltd.",
+        "nic_handle": "LCOM-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.876352,
+                57.63696
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2022-02-01T12:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 1684,
+        "type": "Anchor",
+        "fqdn": "ru-ivo-as29114.anchors.atlas.ripe.net",
+        "probe": 6526,
+        "is_ipv4_only": true,
+        "ip_v4": "195.209.139.36",
+        "as_v4": 29114,
+        "ip_v4_gateway": "195.209.139.5",
+        "ip_v4_netmask": "255.255.255.0",
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Ivanovo",
+        "country": "RU",
+        "company": "LLC BIT",
+        "nic_handle": "NA6264-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                40.9891995,
+                56.9911293
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-04-01T00:20:01",
+        "hardware_version": 99
+    },
+    {
+        "id": 1804,
+        "type": "Anchor",
+        "fqdn": "ru-khv-as199524.anchors.atlas.ripe.net",
+        "probe": 6606,
+        "is_ipv4_only": false,
+        "ip_v4": "92.38.129.121",
+        "as_v4": 199524,
+        "ip_v4_gateway": "92.38.129.1",
+        "ip_v4_netmask": "255.255.255.0",
+        "ip_v6": "2a03:90c0:a5::af",
+        "as_v6": 199524,
+        "ip_v6_gateway": "2a03:90c0:a5::1",
+        "ip_v6_prefix": 48,
+        "city": "Khabarovsk",
+        "country": "RU",
+        "company": "G-Core Labs S.A.",
+        "nic_handle": "NA6392-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                135.1037969,
+                48.497145
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-09-04T02:20:04",
+        "hardware_version": 99
+    },
+    {
+        "id": 1688,
+        "type": "Anchor",
+        "fqdn": "ru-khv-as57695.anchors.atlas.ripe.net",
+        "probe": 6936,
+        "is_ipv4_only": false,
+        "ip_v4": "185.209.84.141",
+        "as_v4": 57695,
+        "ip_v4_gateway": "185.209.84.1",
+        "ip_v4_netmask": "255.255.255.0",
+        "ip_v6": "2a0b:4342:4000:141:5054:ff:fe0e:b302",
+        "as_v6": 57695,
+        "ip_v6_gateway": "fe80::ec4:7aff:fee1:1803",
+        "ip_v6_prefix": 64,
+        "city": "Khabarovsk",
+        "country": "RU",
+        "company": "Misaka Network, Inc.",
+        "nic_handle": "MNN34-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                135.0573101,
+                48.471885
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2021-02-16T10:20:00.233608",
+        "hardware_version": 99
+    },
+    {
+        "id": 2070,
+        "type": "Anchor",
+        "fqdn": "ru-led-as199524.anchors.atlas.ripe.net",
+        "probe": 6805,
+        "is_ipv4_only": false,
+        "ip_v4": "92.223.65.18",
+        "as_v4": 199524,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a03:90c0:154::12",
+        "as_v6": 199524,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Saint Petersburg",
+        "country": "RU",
+        "company": "G-Core Labs S.A.",
+        "nic_handle": "NA6707-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.3303049,
+                59.983881
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-06-05T12:20:00.213888",
+        "hardware_version": 99
+    },
+    {
+        "id": 1828,
+        "type": "Anchor",
+        "fqdn": "ru-led-as42473.anchors.atlas.ripe.net",
+        "probe": 6735,
+        "is_ipv4_only": false,
+        "ip_v4": "37.252.255.2",
+        "as_v4": 42473,
+        "ip_v4_gateway": "37.252.255.1",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a00:11c0:1c:aa3::a",
+        "as_v6": 42473,
+        "ip_v6_gateway": "2a00:11c0:1c:aa3::1",
+        "ip_v6_prefix": 64,
+        "city": "St. Petersburg",
+        "country": "RU",
+        "company": "ANEXIA Internetdienstleistungs GmbH",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.3379925,
+                59.963877
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2020-02-07T14:20:00",
+        "hardware_version": 2
+    },
+    {
+        "id": 513,
+        "type": "Anchor",
+        "fqdn": "ru-led-as43317.anchors.atlas.ripe.net",
+        "probe": 6177,
+        "is_ipv4_only": false,
+        "ip_v4": "94.242.1.50",
+        "as_v4": 43317,
+        "ip_v4_gateway": "94.242.1.1",
+        "ip_v4_netmask": "255.255.255.128",
+        "ip_v6": "2a00:1838:10:2::50",
+        "as_v6": 43317,
+        "ip_v6_gateway": "fe80::225:45ff:fe41:2444",
+        "ip_v6_prefix": 64,
+        "city": "Saint Petersburg ",
+        "country": "RU",
+        "company": "Fishnet Communications",
+        "nic_handle": "FCN8-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.4076695,
+                59.9100783
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2016-02-15T09:33:20",
+        "hardware_version": 1
+    },
+    {
+        "id": 2488,
+        "type": "Anchor",
+        "fqdn": "ru-led-as43317.anchors.atlas.ripe.net",
+        "probe": 6872,
+        "is_ipv4_only": false,
+        "ip_v4": "94.242.1.50",
+        "as_v4": 43317,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a00:1838:10:2:7483:5678:b8d5:9eda",
+        "as_v6": 43317,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Saint Petersburg, RUssia",
+        "country": "RU",
+        "company": "Fishnet Communications",
+        "nic_handle": "FCOV1-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.4104513,
+                59.9096851
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-09-30T10:20:00.390650",
+        "hardware_version": 99
+    },
+    {
+        "id": 1606,
+        "type": "Anchor",
+        "fqdn": "ru-led-as44050.anchors.atlas.ripe.net",
+        "probe": 6623,
+        "is_ipv4_only": false,
+        "ip_v4": "188.143.128.12",
+        "as_v4": 44050,
+        "ip_v4_gateway": "188.143.128.1",
+        "ip_v4_netmask": "255.255.255.128",
+        "ip_v6": "2a00:1d78:1::11",
+        "as_v6": 44050,
+        "ip_v6_gateway": "2a00:1d78:1::1",
+        "ip_v6_prefix": 48,
+        "city": "Saint-Petersburg",
+        "country": "RU",
+        "company": "PIN LLC",
+        "nic_handle": "PIN",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.433892,
+                59.876088
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-10-10T08:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 2240,
+        "type": "Anchor",
+        "fqdn": "ru-led-as49505.anchors.atlas.ripe.net",
+        "probe": 6883,
+        "is_ipv4_only": false,
+        "ip_v4": "188.124.38.132",
+        "as_v4": 49505,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a00:ab00:208:13b::2",
+        "as_v6": 49505,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Saint Petersburg",
+        "country": "RU",
+        "company": "Selectel",
+        "nic_handle": "SA32710-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.3291,
+                59.887231
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-10-27T06:20:00.428213",
+        "hardware_version": 99
+    },
+    {
+        "id": 2862,
+        "type": "Anchor",
+        "fqdn": "ru-led-as57578.anchors.atlas.ripe.net",
+        "probe": 7072,
+        "is_ipv4_only": false,
+        "ip_v4": "45.142.246.158",
+        "as_v4": 57578,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a0e:5c41:2:39:5054:ff:fef7:f639",
+        "as_v6": 57578,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "St. Petersburg",
+        "country": "RU",
+        "company": "Misaka Network, Inc.",
+        "nic_handle": "MNN34-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.3291,
+                59.887231
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2022-02-21T18:20:00.282073",
+        "hardware_version": 99
+    },
+    {
+        "id": 2710,
+        "type": "Anchor",
+        "fqdn": "ru-mcx-as207423.anchors.atlas.ripe.net",
+        "probe": 6933,
+        "is_ipv4_only": true,
+        "ip_v4": "94.231.212.79",
+        "as_v4": 207423,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Makhachkala",
+        "country": "RU",
+        "company": "Steil-South",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                47.5146913,
+                42.9777885
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2021-02-11T22:20:00.188207",
+        "hardware_version": 99
+    },
+    {
+        "id": 684,
+        "type": "Anchor",
+        "fqdn": "ru-mot-as13238.anchors.atlas.ripe.net",
+        "probe": 6203,
+        "is_ipv4_only": false,
+        "ip_v4": "213.180.200.185",
+        "as_v4": 13238,
+        "ip_v4_gateway": "213.180.200.186",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a02:6b8:0:602::2",
+        "as_v6": 13238,
+        "ip_v6_gateway": "2a02:6b8:0:602::1",
+        "ip_v6_prefix": 64,
+        "city": "Mytishchi",
+        "country": "RU",
+        "company": "Yandex LLC",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.77676192,
+                55.93204308
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2016-06-20T10:50:17",
+        "hardware_version": 1
+    },
+    {
+        "id": 3284,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as13238.anchors.atlas.ripe.net",
+        "probe": 7165,
+        "is_ipv4_only": false,
+        "ip_v4": "185.32.187.161",
+        "as_v4": 13238,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a02:6bf:7000:a::2",
+        "as_v6": 13238,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "Yandex LLC",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.528861,
+                55.652639
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-01-01T02:20:00.232146",
+        "hardware_version": 99
+    },
+    {
+        "id": 378,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as15835.anchors.atlas.ripe.net",
+        "probe": 6064,
+        "is_ipv4_only": false,
+        "ip_v4": "193.232.226.58",
+        "as_v4": 15835,
+        "ip_v4_gateway": "193.232.226.57",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2001:6d0:ffd8:411::2",
+        "as_v6": 15835,
+        "ip_v6_gateway": "2001:6d0:ffd8:411::1",
+        "ip_v6_prefix": 64,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "RIPN",
+        "nic_handle": "RR-ORG",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.55738347,
+                55.79463009
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2014-06-02T15:45:42",
+        "hardware_version": 1
+    },
+    {
+        "id": 1985,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as199524.anchors.atlas.ripe.net",
+        "probe": 6665,
+        "is_ipv4_only": false,
+        "ip_v4": "146.185.218.110",
+        "as_v4": 199524,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a03:90c0:56::1f8",
+        "as_v6": 199524,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "G-Core Labs S.A.",
+        "nic_handle": "NA6392-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.5507341,
+                55.8048977
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-11-23T02:20:37",
+        "hardware_version": 99
+    },
+    {
+        "id": 3304,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as201800.anchors.atlas.ripe.net",
+        "probe": 7168,
+        "is_ipv4_only": true,
+        "ip_v4": "188.68.188.108",
+        "as_v4": 201800,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "BIA-Technologies",
+        "nic_handle": "BAM81-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.5994878,
+                55.5739196
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-01-12T02:20:00.335301",
+        "hardware_version": 99
+    },
+    {
+        "id": 1823,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as20764.anchors.atlas.ripe.net",
+        "probe": 6583,
+        "is_ipv4_only": false,
+        "ip_v4": "81.27.254.54",
+        "as_v4": 20764,
+        "ip_v4_gateway": "81.27.254.53",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a00:1c28:1:fafa:a1::2",
+        "as_v6": 20764,
+        "ip_v6_gateway": "2a00:1c28:1:fafa:a1::1",
+        "ip_v6_prefix": 112,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "CJSC RASCOM",
+        "nic_handle": "IP1571-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.6547806,
+                55.7746315
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-07-22T20:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 2381,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as209456.anchors.atlas.ripe.net",
+        "probe": 6837,
+        "is_ipv4_only": false,
+        "ip_v4": "185.22.25.5",
+        "as_v4": 209456,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a02:330:8::b916:1905",
+        "as_v6": 209456,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "WEIR MINERALS RFW LLC",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.6157953,
+                55.741768
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-07-31T10:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 1250,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as42473.anchors.atlas.ripe.net",
+        "probe": 6338,
+        "is_ipv4_only": false,
+        "ip_v4": "37.252.254.142",
+        "as_v4": 42473,
+        "ip_v4_gateway": "37.252.254.141",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a00:11c0:1b:aa3::a",
+        "as_v6": 42473,
+        "ip_v6_gateway": "2a00:11c0:1b:aa3::1",
+        "ip_v6_prefix": 64,
+        "city": "Moskva",
+        "country": "RU",
+        "company": "ANEXIA Internetdienstleistung GmbH",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.513331,
+                55.8865235
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2018-03-01T08:20:00",
+        "hardware_version": 2
+    },
+    {
+        "id": 301,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as47764.anchors.atlas.ripe.net",
+        "probe": 6046,
+        "is_ipv4_only": false,
+        "ip_v4": "95.163.252.10",
+        "as_v4": 47764,
+        "ip_v4_gateway": "95.163.252.9",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a00:114f:1::1",
+        "as_v6": 47764,
+        "ip_v6_gateway": "2a00:114f:1::2",
+        "ip_v6_prefix": 64,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "Mail.ru Group",
+        "nic_handle": "MAIL-RU",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.54019474,
+                55.79463009
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2014-03-07T16:22:14",
+        "hardware_version": 1
+    },
+    {
+        "id": 1244,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as47764.anchors.atlas.ripe.net",
+        "probe": 6335,
+        "is_ipv4_only": false,
+        "ip_v4": "95.163.252.10",
+        "as_v4": 47764,
+        "ip_v4_gateway": "95.163.252.9",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a00:114f:1::1",
+        "as_v6": 47764,
+        "ip_v6_gateway": "2a00:114f:1::2",
+        "ip_v6_prefix": 64,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "Mail.ru Group",
+        "nic_handle": "MAIL-RU",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.6172999,
+                55.755826
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2018-01-31T11:31:42",
+        "hardware_version": 2
+    },
+    {
+        "id": 3184,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as49675.anchors.atlas.ripe.net",
+        "probe": 7140,
+        "is_ipv4_only": false,
+        "ip_v4": "46.17.200.235",
+        "as_v4": 49675,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a02:26a8:f001::10",
+        "as_v6": 49675,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "JSC \"SKB Kontur Production\"",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.6728019,
+                55.7319711
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2022-10-07T06:20:00.230748",
+        "hardware_version": 99
+    },
+    {
+        "id": 1482,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as8331.anchors.atlas.ripe.net",
+        "probe": 6491,
+        "is_ipv4_only": false,
+        "ip_v4": "195.91.164.68",
+        "as_v4": 8331,
+        "ip_v4_gateway": "195.91.164.67",
+        "ip_v4_netmask": "255.255.255.248",
+        "ip_v6": "2a00:14d0:1000:a::68",
+        "as_v6": 8331,
+        "ip_v6_gateway": "2a00:14d0:1000:a::4",
+        "ip_v6_prefix": 64,
+        "city": "Moscow RU",
+        "country": "RU",
+        "company": "Cronyx Plus LLC",
+        "nic_handle": "RNOC-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.6154999,
+                55.73448
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-01-29T16:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 2095,
+        "type": "Anchor",
+        "fqdn": "ru-mow-as8985.anchors.atlas.ripe.net",
+        "probe": 6733,
+        "is_ipv4_only": false,
+        "ip_v4": "193.232.226.58",
+        "as_v4": 8985,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2001:6d0:ffd8:411::2",
+        "as_v6": 8985,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Moscow",
+        "country": "RU",
+        "company": "JSC \"MSK-IX\"",
+        "nic_handle": "RN1863-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.477039,
+                55.801298
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-02-03T14:20:00.593172",
+        "hardware_version": 99
+    },
+    {
+        "id": 2414,
+        "type": "Anchor",
+        "fqdn": "ru-oms-as49404.anchors.atlas.ripe.net",
+        "probe": 6853,
+        "is_ipv4_only": true,
+        "ip_v4": "193.169.52.51",
+        "as_v4": 49404,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Omsk",
+        "country": "RU",
+        "company": "RusHost",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                73.3645204,
+                54.9913545
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-09-02T20:20:00.297181",
+        "hardware_version": 99
+    },
+    {
+        "id": 1707,
+        "type": "Anchor",
+        "fqdn": "ru-ovb-as49673.anchors.atlas.ripe.net",
+        "probe": 6538,
+        "is_ipv4_only": false,
+        "ip_v4": "94.247.111.19",
+        "as_v4": 49673,
+        "ip_v4_gateway": "94.247.111.1",
+        "ip_v4_netmask": "255.255.255.192",
+        "ip_v6": "2a02:47a0:a::19",
+        "as_v6": 49673,
+        "ip_v6_gateway": "2a02:47a0:a::1",
+        "ip_v6_prefix": 48,
+        "city": "Novosibirsk",
+        "country": "RU",
+        "company": "Truenetwork",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                82.940642,
+                55.027946
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-04-23T14:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 1977,
+        "type": "Anchor",
+        "fqdn": "ru-ovb-as51907.anchors.atlas.ripe.net",
+        "probe": 6691,
+        "is_ipv4_only": false,
+        "ip_v4": "185.17.8.54",
+        "as_v4": 51907,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a06:1301:4020:1048:185:17:8:54",
+        "as_v6": 51907,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Novosibirsk",
+        "country": "RU",
+        "company": "Frontier Network LLC",
+        "nic_handle": "FRNC",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                82.9272944,
+                55.0204213
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-12-17T14:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 2227,
+        "type": "Anchor",
+        "fqdn": "ru-rnd-as48276.anchors.atlas.ripe.net",
+        "probe": 6793,
+        "is_ipv4_only": true,
+        "ip_v4": "109.248.196.2",
+        "as_v4": 48276,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Rostov-na-Donu",
+        "country": "RU",
+        "company": "IPSvyaz",
+        "nic_handle": "LVL82-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.75794,
+                47.226056
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-05-20T10:20:00.428552",
+        "hardware_version": 99
+    },
+    {
+        "id": 3291,
+        "type": "Anchor",
+        "fqdn": "ru-spp-as13238.anchors.atlas.ripe.net",
+        "probe": 7180,
+        "is_ipv4_only": false,
+        "ip_v4": "185.32.187.169",
+        "as_v4": 13238,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a02:6bf:7000:b::2",
+        "as_v6": 13238,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Saint-Petersburg",
+        "country": "RU",
+        "company": "Yandex LLC",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.3285791,
+                59.8872283
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-02-21T20:20:41.199027",
+        "hardware_version": 99
+    },
+    {
+        "id": 3471,
+        "type": "Anchor",
+        "fqdn": "ru-tof-as51724.anchors.atlas.ripe.net",
+        "probe": 7234,
+        "is_ipv4_only": true,
+        "ip_v4": "193.42.115.222",
+        "as_v4": 51724,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Tomsk",
+        "country": "RU",
+        "company": "Flynet LLC",
+        "nic_handle": "FN2211-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                84.9480469,
+                56.4884295
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-06-12T20:20:00.311613",
+        "hardware_version": 99
+    }
+]

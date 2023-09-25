@@ -13,14 +13,14 @@ from common.default import (
     TP1_DATASET_PATH,
 )
 
-from settings.logger_config import logger
+from common.logger_config import logger
 
-from ripe.utils import (
+from common.ripe.utils import (
     get_date_from_timestamp,
     get_timestamp_from_date,
     get_date_from_str,
 )
-from ripe.ripe_atlas_api import get_atlas_anchors, get_atlas_probes
+from common.ripe.ripe_atlas_api import get_atlas_anchors, get_atlas_probes
 
 
 def exo1() -> dict:
@@ -29,8 +29,8 @@ def exo1() -> dict:
 
     hints: requests package import
     """
-    measurement_id = 38333397
-    base_url = None
+    measurement_id = 1001
+    base_url = "https://atlas.ripe.net/api/v2/measurements/"
 
     if not base_url:
         raise RuntimeError("url empty")
@@ -40,8 +40,7 @@ def exo1() -> dict:
         # TODO: make an http request to RIPE API (using requests package)  #
         # to get measurement with measurement id : 38333397                #
         ####################################################################
-        response = None
-        pass
+        response = requests.get(f"{base_url}/{measurement_id}/").json()
 
     logger.info(f"response: {response}")
 

@@ -1,0 +1,542 @@
+[
+    {
+        "id": 2372,
+        "type": "Anchor",
+        "fqdn": "ua-cvg-as50012.anchors.atlas.ripe.net",
+        "probe": 6876,
+        "is_ipv4_only": true,
+        "ip_v4": "193.104.85.3",
+        "as_v4": 50012,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Chervonograd",
+        "country": "UA",
+        "company": "Bestlink",
+        "nic_handle": "BA7582-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                23.1540298,
+                49.9655319
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-10-19T10:20:00.433773",
+        "hardware_version": 99
+    },
+    {
+        "id": 2350,
+        "type": "Anchor",
+        "fqdn": "ua-dnk-as3326.anchors.atlas.ripe.net",
+        "probe": 6829,
+        "is_ipv4_only": false,
+        "ip_v4": "77.88.216.1",
+        "as_v4": 3326,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a01:758:ffe8:3::1",
+        "as_v6": 3326,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Dnepropetrovsk",
+        "country": "UA",
+        "company": "Datagroup",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                35.0591955,
+                48.4663437
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-07-21T08:20:00.454782",
+        "hardware_version": 99
+    },
+    {
+        "id": 1923,
+        "type": "Anchor",
+        "fqdn": "ua-dok-as12773.anchors.atlas.ripe.net",
+        "probe": 6619,
+        "is_ipv4_only": true,
+        "ip_v4": "185.28.108.163",
+        "as_v4": 12773,
+        "ip_v4_gateway": "185.28.108.161",
+        "ip_v4_netmask": "255.255.255.240",
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Donetsk",
+        "country": "UA",
+        "company": "Meshnet",
+        "nic_handle": "MNDN-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.8395218,
+                48.0019323
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-10-08T08:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 1473,
+        "type": "Anchor",
+        "fqdn": "ua-dok-as48276.anchors.atlas.ripe.net",
+        "probe": 6415,
+        "is_ipv4_only": true,
+        "ip_v4": "188.130.254.243",
+        "as_v4": 48276,
+        "ip_v4_gateway": "188.130.254.254",
+        "ip_v4_netmask": "255.255.255.240",
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Donetsk, DPR",
+        "country": "UA",
+        "company": "Level-MSK Ltd.",
+        "nic_handle": "LVL82-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.8055448,
+                47.9950557
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2018-11-17T08:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 980,
+        "type": "Anchor",
+        "fqdn": "ua-iev-as13032.anchors.atlas.ripe.net",
+        "probe": 6326,
+        "is_ipv4_only": true,
+        "ip_v4": "91.202.128.78",
+        "as_v4": 13032,
+        "ip_v4_gateway": "91.202.128.65",
+        "ip_v4_netmask": "255.255.255.192",
+        "ip_v6": "::",
+        "as_v6": 13032,
+        "ip_v6_gateway": "::",
+        "ip_v6_prefix": 64,
+        "city": "Kyiv",
+        "country": "UA",
+        "company": "Taras Shevchenko National University of Kyiv",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.47065131,
+                50.38311411
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2017-12-18T09:18:51",
+        "hardware_version": 2
+    },
+    {
+        "id": 839,
+        "type": "Anchor",
+        "fqdn": "ua-iev-as24725.anchors.atlas.ripe.net",
+        "probe": 6211,
+        "is_ipv4_only": false,
+        "ip_v4": "109.70.107.25",
+        "as_v4": 24725,
+        "ip_v4_gateway": "109.70.107.1",
+        "ip_v4_netmask": "255.255.255.192",
+        "ip_v6": "2001:4130:107::25",
+        "as_v6": 24725,
+        "ip_v6_gateway": "2001:4130:107::1",
+        "ip_v6_prefix": 48,
+        "city": "Kyiv",
+        "country": "UA",
+        "company": "Hostmaster LLC",
+        "nic_handle": "UA-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.4393301,
+                50.47766102
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2016-07-05T15:10:35",
+        "hardware_version": 1
+    },
+    {
+        "id": 527,
+        "type": "Anchor",
+        "fqdn": "ua-iev-as29632.anchors.atlas.ripe.net",
+        "probe": 6106,
+        "is_ipv4_only": false,
+        "ip_v4": "62.205.155.50",
+        "as_v4": 29632,
+        "ip_v4_gateway": "62.205.155.49",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a01:d0:0:36::2",
+        "as_v6": 29632,
+        "ip_v6_gateway": "2a01:d0:0:36::1",
+        "ip_v6_prefix": 64,
+        "city": "Kyiv",
+        "country": "UA",
+        "company": "Hitech Service LLC",
+        "nic_handle": "HI573-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.49593304,
+                50.46042052
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2015-01-26T13:14:13",
+        "hardware_version": 1
+    },
+    {
+        "id": 2385,
+        "type": "Anchor",
+        "fqdn": "ua-iev-as3326.anchors.atlas.ripe.net",
+        "probe": 6844,
+        "is_ipv4_only": false,
+        "ip_v4": "88.81.228.254",
+        "as_v4": 3326,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a01:758:fff4:4::2",
+        "as_v6": 3326,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Kyiv",
+        "country": "UA",
+        "company": "Datagroup",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.445379,
+                50.451128
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-08-18T16:20:00.348857",
+        "hardware_version": 99
+    },
+    {
+        "id": 3427,
+        "type": "Anchor",
+        "fqdn": "ua-iev-as43418.anchors.atlas.ripe.net",
+        "probe": 7214,
+        "is_ipv4_only": true,
+        "ip_v4": "91.197.51.187",
+        "as_v4": 43418,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Kyiv",
+        "country": "UA",
+        "company": "Pryama Mova Tov.",
+        "nic_handle": "ANCC2-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.500155,
+                50.435779
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-05-09T12:20:00.299884",
+        "hardware_version": 99
+    },
+    {
+        "id": 3310,
+        "type": "Anchor",
+        "fqdn": "ua-iev-as6768.anchors.atlas.ripe.net",
+        "probe": 7194,
+        "is_ipv4_only": false,
+        "ip_v4": "45.14.110.106",
+        "as_v4": 6768,
+        "ip_v4_gateway": "45.14.110.105",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a01:4a60:0:1::86",
+        "as_v6": 6768,
+        "ip_v6_gateway": "2a01:4a60:0:1::85",
+        "ip_v6_prefix": 126,
+        "city": "Kiev",
+        "country": "UA",
+        "company": "EurotelPlus LLC",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.5000435,
+                50.4358998
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-03-25T18:20:00.376853",
+        "hardware_version": 99
+    },
+    {
+        "id": 2422,
+        "type": "Anchor",
+        "fqdn": "ua-kre-as41009.anchors.atlas.ripe.net",
+        "probe": 6852,
+        "is_ipv4_only": false,
+        "ip_v4": "195.189.60.149",
+        "as_v4": 41009,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2001:67c:1bcc::149",
+        "as_v6": 41009,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Kremenchuk",
+        "country": "UA",
+        "company": "PP Vizit-Service",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                33.410033,
+                49.065783
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2020-09-02T16:20:00.408012",
+        "hardware_version": 99
+    },
+    {
+        "id": 1469,
+        "type": "Anchor",
+        "fqdn": "ua-nlv-as41018.anchors.atlas.ripe.net",
+        "probe": 6414,
+        "is_ipv4_only": false,
+        "ip_v4": "185.126.112.18",
+        "as_v4": 41018,
+        "ip_v4_gateway": "185.126.112.1",
+        "ip_v4_netmask": "255.255.255.192",
+        "ip_v6": "2001:67c:25dc:2::128:18",
+        "as_v6": 41018,
+        "ip_v6_gateway": "2001:67c:25dc:2::128:1",
+        "ip_v6_prefix": 122,
+        "city": "Mykolayiv",
+        "country": "UA",
+        "company": "Omnilance LTD",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                31.9945829,
+                46.975033
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2018-11-14T14:14:18",
+        "hardware_version": 99
+    },
+    {
+        "id": 2652,
+        "type": "Anchor",
+        "fqdn": "ua-ods-as42905.anchors.atlas.ripe.net",
+        "probe": 6930,
+        "is_ipv4_only": true,
+        "ip_v4": "141.105.133.30",
+        "as_v4": 42905,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Odesa",
+        "country": "UA",
+        "company": "Limanet LLC",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.7258932,
+                46.4764952
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2021-02-11T00:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 2014,
+        "type": "Anchor",
+        "fqdn": "ua-riv-as50392.anchors.atlas.ripe.net",
+        "probe": 6677,
+        "is_ipv4_only": false,
+        "ip_v4": "193.106.144.26",
+        "as_v4": 50392,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a00:fc00:e000:2::26",
+        "as_v6": 50392,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Rivne",
+        "country": "UA",
+        "company": "LLC Campus Networks",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                26.251617,
+                50.6199
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2019-11-30T14:20:36",
+        "hardware_version": 99
+    },
+    {
+        "id": 2975,
+        "type": "Anchor",
+        "fqdn": "ua-vsg-as41709.anchors.atlas.ripe.net",
+        "probe": 7123,
+        "is_ipv4_only": false,
+        "ip_v4": "94.158.46.146",
+        "as_v4": 41709,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a03:a9c0:f000:0:ff00::1000",
+        "as_v6": 41709,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Lugansk",
+        "country": "UA",
+        "company": "LDS",
+        "nic_handle": "LRA30-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.307815,
+                48.574041
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2022-08-03T08:20:00.336578",
+        "hardware_version": 99
+    },
+    {
+        "id": 1565,
+        "type": "Anchor",
+        "fqdn": "ua-zap-as34605.anchors.atlas.ripe.net",
+        "probe": 6478,
+        "is_ipv4_only": true,
+        "ip_v4": "178.218.68.22",
+        "as_v4": 34605,
+        "ip_v4_gateway": "178.218.68.1",
+        "ip_v4_netmask": "255.255.255.0",
+        "ip_v6": null,
+        "as_v6": null,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Zaporizhzhia",
+        "country": "UA",
+        "company": "Linet LTD",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                35.1892823,
+                47.7807868
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2019-01-15T10:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 1700,
+        "type": "Anchor",
+        "fqdn": "ua-zua-as31272.anchors.atlas.ripe.net",
+        "probe": 6566,
+        "is_ipv4_only": false,
+        "ip_v4": "217.77.210.42",
+        "as_v4": 31272,
+        "ip_v4_gateway": "217.77.210.41",
+        "ip_v4_netmask": "255.255.255.252",
+        "ip_v6": "2a00:bc00:100:313::2",
+        "as_v6": 31272,
+        "ip_v6_gateway": "2a00:bc00:100:313::1",
+        "ip_v6_prefix": 64,
+        "city": "Mykolayiv",
+        "country": "UA",
+        "company": "Wildpark",
+        "nic_handle": "",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                31.9786513,
+                46.9674237
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": true,
+        "date_live": "2019-06-17T08:20:00",
+        "hardware_version": 99
+    },
+    {
+        "id": 3460,
+        "type": "Anchor",
+        "fqdn": "ua-zua-as31272.anchors.atlas.ripe.net",
+        "probe": 7232,
+        "is_ipv4_only": false,
+        "ip_v4": "217.77.210.42",
+        "as_v4": 31272,
+        "ip_v4_gateway": null,
+        "ip_v4_netmask": null,
+        "ip_v6": "2a00:bc00:100:313::2",
+        "as_v6": 31272,
+        "ip_v6_gateway": null,
+        "ip_v6_prefix": null,
+        "city": "Mykolayiv",
+        "country": "UA",
+        "company": "Wildpark ISP",
+        "nic_handle": "SG18908-RIPE",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                31.9596528,
+                46.9653509
+            ]
+        },
+        "tlsa_record": "",
+        "is_disabled": false,
+        "date_live": "2023-06-05T18:20:00",
+        "hardware_version": 99
+    }
+]

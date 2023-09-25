@@ -10,6 +10,8 @@ from collections import defaultdict, OrderedDict
 from ipaddress import IPv4Network
 from random import randint
 
+from common.logger_config import logger
+
 
 class RIPEAtlas(object):
     def __init__(
@@ -55,8 +57,8 @@ class RIPEAtlas(object):
                 measurement_id = response["measurements"][0]
                 break
             except KeyError:
-                logging.info(response)
-                logging.warning("Too much measurements.", "Waiting.")
+                logger.info(response)
+                logger.warning("Too much measurements. Waiting.")
                 time.sleep(60)
         else:
             raise Exception("Too much measurements. Stopping.")
@@ -187,6 +189,8 @@ def wait_for(measurement_id: str, max_retry: int = 30) -> None:
         # check if measurement is ongoing or not
         if response["status"]["name"] != "Ongoing":
             return response
+        else:
+            logger.info("no measurement retrieved...")
 
         time.sleep(10)
 
@@ -301,7 +305,7 @@ def parse_measurements_results(response: list) -> dict:
             }
 
         else:
-            logging.warning(f"no results: {result}")
+            logger.warning(f"no results: {result}")
 
     # order vps per increasing rtt
     for dst_addr in measurement_results:
@@ -353,6 +357,22 @@ def get_from_atlas(url: str):
 
         if response["next"]:
             response = requests.get(response["next"]).json()
+        else:
+            break
+
+
+def get_all_results_from_request(url: str, params: dict = None) -> dict:
+    """get all response from a ripe api request"""
+    if not params:
+        params = {}
+
+    response = requests.get(url=url, params=params).json()
+
+    while True:
+        yield response
+
+        if response["next"]:
+            response = requests.get(response["next"], params=params)
         else:
             break
 
